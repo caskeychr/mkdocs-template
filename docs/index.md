@@ -8,7 +8,7 @@ hide:
 
 Welcome!
 
-<div class="cards">
+<!-- <div class="cards">
   <a href="./concepts/overview/">
     <div class="card">
       <div class="card__content">
@@ -41,7 +41,7 @@ Welcome!
       </div>
     </div>
   </a>
-</div>
+</div> -->
 
 !!! note "Work In Progress"
 This docs site is still a work in progress! Check out the [contributing](./contributing/overview.md) section if you're interested in helping.
