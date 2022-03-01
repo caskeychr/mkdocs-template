@@ -10,11 +10,11 @@ theme:
     - navigation.sections
     - navigation.top
 
-repo_url: https://github.boozallencsn.com/uip/uip-studio-technical-docs
+repo_url: https://github.com/caskeychr/mkdocs-template
 
-# edit_uri: edit/main/docs/
+edit_uri: blob/main/docs/
 
-plugins:
+# plugins:
   # - search: {}
   # - gen-files:
   #     scripts:
@@ -23,8 +23,8 @@ plugins:
 extra_css:
   - css/extra.css
 
-extra:
-  generator: false
+# extra:
+  # generator: false
   # social: 
   #   - icon: fontawesome/brands/github
   #     link: https://github.boozallencsn.com/uip/uip-studio-technical-docs
@@ -44,8 +44,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight
   - pymdownx.superfences
-  # - toc:
-  #     permalink: true
+  - toc:
+      permalink: "#"
   - pymdownx.snippets:
       base_path: "docs"
   - pymdownx.betterem:
@@ -57,20 +57,27 @@ markdown_extensions:
 # Page Tree
 nav:
   - Home: 'index.md'
-  - Concepts:
-    - 'concepts/overview.md'
-    - Section One:
-      - 'concepts/section-one/page-one.md'
-      - 'concepts/section-one/page-two.md'
-    - Section Two:
-      - 'concepts/section-two/page-one.md'
-      - 'concepts/section-two/page-two.md'
-  - Reference:
-    - 'reference/overview.md'
+  - Components: 
+    - Component 1: 'components/component1.md'
+    - Component 2: 'components/component2.md'
+    - Component 3: 'components/component3.md'
+    - Component 4: 'components/component4.md'
+  # - Concepts:
+  #   - 'concepts/overview.md'
+  #   - Section One:
+  #     - 'concepts/section-one/page-one.md'
+  #     - 'concepts/section-one/page-two.md'
+  #   - Section Two:
+  #     - 'concepts/section-two/page-one.md'
+  #     - 'concepts/section-two/page-two.md'
+  # - Reference:
+  #   - 'reference/overview.md'
   - Tutorials:
     - 'tutorials/overview.md'
-  - How-To Guides: 
-    - 'how-to/overview.md'
+    - 'tutorials/installguide_ui.md'
+    - 'tutorials/installguide_cli.md'
+  # - How-To Guides: 
+  #   - 'how-to/overview.md'
   - Contributing:
     - 'contributing/overview.md'
     - 'contributing/fork-based.md'
