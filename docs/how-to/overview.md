@@ -1,10 +1,8 @@
 # Overview
 
-How-To Guides are goal oriented step-by-step instructions for specific problems.
+Additional Info Here
 
-!!! abstract "Coming Soon!"
-    Tutorials and How-To Guides are next up on the priority list after this initial release of the new docs site is over!
-
-| How-To Guide | Description |
-|--------------|-------------|
-|              |             |
+| How-To Guide                    | Description       |
+| ------------------------------- | ----------------- |
+| [Guide 1](./how-to1/how-to1.md) | Guide Description |
+| [Guide 2](./how-to2/how-to2.md) | Guide Description |

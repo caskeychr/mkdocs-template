@@ -1,8 +1,8 @@
-site_name: UIP Core Docs
+site_name: Documentation Site Name
 theme:
   name: material
-  palette:
-    primary: teal
+  # palette:
+  #   primary: teal
   features: 
     - content.code.annotate
     - navigation.instant
@@ -12,28 +12,10 @@ theme:
 
 repo_url: https://github.com/caskeychr/mkdocs-template
 
-edit_uri: blob/main/docs/
-
-# plugins:
-  # - search: {}
-  # - gen-files:
-  #     scripts:
-  #       - 'docs/add_glossary.py'
+# edit_uri: blob/develop/docs/
 
 extra_css:
   - css/extra.css
-
-# extra:
-  # generator: false
-  # social: 
-  #   - icon: fontawesome/brands/github
-  #     link: https://github.boozallencsn.com/uip/uip-studio-technical-docs
-  # version:
-  #   provider: mike
-  #   default: latest
-  # analytics:
-  #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_ID
 
 markdown_extensions:
   - admonition
@@ -44,49 +26,37 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight
   - pymdownx.superfences
-  - toc:
-      permalink: "#"
+  # - toc:
+  #     permalink: "#"
   - pymdownx.snippets:
       base_path: "docs"
   - pymdownx.betterem:
       smart_enable: all
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
 
 # Page Tree
 nav:
   - Home: 'index.md'
-  - Components: 
-    - Component 1: 'components/component1.md'
-    - Component 2: 'components/component2.md'
-    - Component 3: 'components/component3.md'
-    - Component 4: 'components/component4.md'
-  # - Concepts:
-  #   - 'concepts/overview.md'
-  #   - Section One:
-  #     - 'concepts/section-one/page-one.md'
-  #     - 'concepts/section-one/page-two.md'
-  #   - Section Two:
-  #     - 'concepts/section-two/page-one.md'
-  #     - 'concepts/section-two/page-two.md'
-  - Reference:
-    - 'reference/overview.md'
   - Tutorials:
     - 'tutorials/overview.md'
-    - 'tutorials/installguide_ui.md'
-    - 'tutorials/installguide_cli.md'
+    - 'tutorials/guide1/guide1.md'
+    - 'tutorials/guide2/guide2.md'
   - How-To Guides: 
     - 'how-to/overview.md'
-  - Contributing:
-    - 'contributing/overview.md'
-    - 'contributing/fork-based.md'
-    - Documentation:
-      - 'contributing/docs/getting-started.md'
-      - 'contributing/docs/documentation-structure.md'
-      - 'contributing/docs/local-development.md'
-      - 'contributing/docs/markdown-lint.md'
-      - 'contributing/docs/vale.md'
-      - 'contributing/docs/add-or-remove-pages.md'
-      - 'contributing/docs/acronyms.md'
-      - 'contributing/docs/markdown-cheatsheet.md'
+    - 'how-to/how-to1/how-to1.md'
+    - 'how-to/how-to2/how-to2.md'
+  - Reference:
+    - 'reference/overview.md'
+    - Section 1:
+      - 'reference/section-one/article1.md'
+      - 'reference/section-one/article2.md'
+    - Section 2:
+      - 'reference/section-two/article3.md'
+      - 'reference/section-two/article4.md'
+  - Concepts:
+    - 'concepts/overview.md'
+    - Section 1:
+      - 'concepts/section-one/article1.md'
+      - 'concepts/section-one/article2.md'
+    - Section 2:
+      - 'concepts/section-two/article3.md'
+      - 'concepts/section-two/article4.md'

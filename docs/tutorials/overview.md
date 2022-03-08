@@ -1,12 +1,8 @@
-# Tutorials and Guides
+# Overview
 
-<!-- Tutorials are learning oriented lessons to teach users about this project. -->
+Additional Info Here
 
-<!-- !!! abstract "Coming Soon!" -->
-
-<!-- Tutorials and How-To Guides are next up on the priority list after this initial release of the new docs site is over! -->
-
-| Tutorial                                          | Description                                                                                     |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Installation Guide (UI)](./installguide_ui.md)   | This guide will run you through the process of installing UIP Core using the Web User Interface |
-| [Installation Guide (CLI)](./installguide_cli.md) | This guide will run you through the process of installing UIP Core using the Platform CLI       |
+| Tutorial                      | Description       |
+| ----------------------------- | ----------------- |
+| [Guide 1](./guide1/guide1.md) | Guide Description |
+| [Guide 2](./guide2/guide2.md) | Guide Description |
